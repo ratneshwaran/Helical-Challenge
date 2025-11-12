@@ -1,0 +1,20 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+numpy
+pandas
+anndata
+scanpy
+umap-learn
+matplotlib
+scikit-learn
+tqdm
+
+# CUDA-enabled PyTorch stack (matches helical requirement)
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+torchaudio==2.6.0+cu124
+
+helical
+transformers
+mygene
+jupyterlab
